@@ -8,9 +8,9 @@ def find_most_freq(lst):
         else:
             freq[i + 270 + i * -1 * 2] += 1
 
-    max = -99999999999
+    max = -501
     for idx, val in enumerate(freq):
-        if val > max:
+        if (val >= max and idx > 270) or val > max:
             max = val
             pos = idx
 
