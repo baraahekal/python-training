@@ -10,9 +10,6 @@ sentence = "Glad to see you here again!"
 vowels = [vowel for vowel in sentence if vowel in "aeiou"]
 print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 
-# this new syntax takes every element in [lst] that greater than 0
-# and append it to the [new_lst]
-
 
 def mul(n) -> int:
     return n * n
