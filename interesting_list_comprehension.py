@@ -1,4 +1,4 @@
-lst = [-1, 2, 3, -2, 0, 5, -3, 8]
+lst = [-6, 2, 3, -2, 0, 5, -3, 8]
 
 new_lst = [element for element in lst if element > 0]
 print(new_lst)
