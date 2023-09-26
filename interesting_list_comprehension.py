@@ -12,3 +12,15 @@ print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 
 # this new syntax takes every element in [lst] that greater than 0
 # and append it to the [new_lst]
+
+
+def mul(n) -> int:
+    return n * n
+
+
+def is_even(n) -> bool:
+    return n % 2 == 0
+
+
+lst3 = [mul(i) for i in lst if is_even(i)]
+print(lst3) # [36, 4, 4, 0, 64]
