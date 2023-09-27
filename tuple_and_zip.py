@@ -5,7 +5,7 @@ iterable, where corresponding elements from the
 input iterable are paired together as tuples
 """
 
-numbers = [1, 2, 3, 4]  # note number 4
+numbers = [1, 2, 3, 4]  # note number 4 🥲
 letters = ['B', 'M', 'F']
 names = ["Baraa", "Mostafa", "Farouk"]
 
@@ -28,6 +28,13 @@ for number, letter, name in zip(numbers, letters, names):
 1 Baraa B
 2 Mostafa M
 3 Farouk F
+"""
+
+"""
+Remember number 4 ?? 😢
+the secret here is that 
+zip function is working until reaching 
+the shortest iterable length
 """
 
 # Zip and deeeep unpacking 🚀
