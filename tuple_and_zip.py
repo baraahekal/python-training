@@ -30,3 +30,22 @@ for number, letter, name in zip(numbers, letters, names):
 3 Farouk F
 """
 
+# Zip and deeeep unpacking 🚀
+for idx, (tuple_item) in enumerate(zip(numbers, letters, names)):
+    print(idx, tuple_item)
+
+"""
+0 (1, 'B', 'Baraa')
+1 (2, 'M', 'Mostafa')
+2 (3, 'F', 'Farouk')
+"""
+
+for idx, (number, letter, name) in enumerate(zip(numbers, letters, names)):
+    print(idx, number, letter, name)
+
+"""
+0 1 B Baraa
+1 2 M Mostafa
+2 3 F Farouk
+"""
+
