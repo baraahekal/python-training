@@ -55,7 +55,6 @@ sentence = "Glad to see you here again!"
 vowels = [letter for letter in sentence if letter in "aeiou"]
 print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 ```
-<span style="color:red;">Red Text</span>
 
 ## <font color='#8ECDDD'>Example 4:</font>
 ### Filter and transformation 
