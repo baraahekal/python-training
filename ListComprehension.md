@@ -1,7 +1,8 @@
-# List Comprehension in 🐍
+# <font color='#FFCC70'>List Comprehension in 🐍</font>
+
 List comprehension offers a shorter syntax when you want to create a new list based on the values
 of an existing list
- ## Example 1:
+## <font color='#8ECDDD'>Example 1:</font>
 Say that you need to copy all numbers from a list and
 adding +1 to each of them 
 #### Normal way:
@@ -21,7 +22,7 @@ numbers = [1, 2, 3, 4, 5, 6]
 copy_lst = [num + 1 for num in numbers] # [2, 3, 4, 5, 6, 7]
 ```
 
- ## Example 2:
+## <font color='#8ECDDD'>Example 2:</font>
 ### (Conditional List Comprehension)
 Say that you need to filter all even numbers 
 in a list copying them to a new list
@@ -44,7 +45,7 @@ numbers = [1, 2, 3, 4, 5, 6]
 copy_lst = [num for num in numbers if num % 2 == 0] # [2, 4, 6]
 ```
 
-## Example 3:
+## <font color='#8ECDDD'>Example 3:</font>
 Say that you have a sentence and you need to 
 extract all vowel letters from it:
 ```python
@@ -53,9 +54,10 @@ vowels = [letter for letter in sentence if letter in "aeiou"]
 print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 ```
 
-## Example 4:
+## <font color='#8ECDDD'>Example 4:</font>
 ### Filter and transformation 
-> a Little harder
+> <font color="red">a Little harder</font>
+
 ```python
 numbers = [-1, 1, 2, -5, 3, 4, -9, 5]
 
