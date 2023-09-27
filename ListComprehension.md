@@ -54,7 +54,8 @@ print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 ```
 
 ## Example 4:
-### Filter and transformation (a little complicated)
+### Filter and transformation 
+> litte harder
 ```python
 numbers = [-1, 1, 2, -5, 3, 4, -9, 5]
 
