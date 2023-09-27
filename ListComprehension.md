@@ -2,9 +2,11 @@
 
 List comprehension offers a shorter syntax when you want to create a new list based on the values
 of an existing list
+
 ## <font color='#8ECDDD'>Example 1:</font>
 Say that you need to copy all numbers from a list and
 adding +1 to each of them 
+
 #### Normal way:
 ```python
 numbers = [1, 2, 3, 4, 5, 6]
@@ -53,6 +55,7 @@ sentence = "Glad to see you here again!"
 vowels = [letter for letter in sentence if letter in "aeiou"]
 print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 ```
+<span style="color:red;">Red Text</span>
 
 ## <font color='#8ECDDD'>Example 4:</font>
 ### Filter and transformation 
