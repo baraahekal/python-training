@@ -66,7 +66,7 @@ print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 ---
 
 ```python
-numbers = [-1, 1, 2, -5, 3, 4, -9, 5]
+numbers = [-1, 1, 2, -5, 3, 4, -9, 5, 6]
 
 
 def is_positive(n) -> bool:
