@@ -7,11 +7,10 @@ input iterable are paired together as tuples
 
 numbers = [1, 2, 3, 4]  # note number 4
 letters = ['B', 'M', 'F']
+names = ["Baraa", "Mostafa", "Farouk"]
 
 zipped = zip(numbers, letters)
 print(list(zipped))  # [(1, 'B'), (2, 'M'), (3, 'F')]
-
-names = ["Baraa", "Mostafa", "Farouk"]
 
 for tuple_item in zip(numbers, letters, names):
     print(tuple_item)
