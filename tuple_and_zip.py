@@ -31,7 +31,7 @@ for number, letter, name in zip(numbers, letters, names):
 """
 
 # Zip and deeeep unpacking 🚀
-for idx, (tuple_item) in enumerate(zip(numbers, letters, names)):
+for idx, tuple_item in enumerate(zip(numbers, letters, names)):
     print(idx, tuple_item)
 
 """
