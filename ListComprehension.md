@@ -7,6 +7,8 @@ of an existing list
 Say that you need to copy all numbers from a list and
 adding +1 to each of them 
 
+
+
 #### Normal way:
 ```python
 numbers = [1, 2, 3, 4, 5, 6]
@@ -58,8 +60,10 @@ print(vowels) # ['a', 'o', 'e', 'e', 'o', 'u', 'e', 'e', 'a', 'a', 'i']
 
 ## <font color='#8ECDDD'>Example 4:</font>
 ### Filter and transformation 
+
 > **Warning**
 > <font color="red">a Little harder</font>
+---
 
 ```python
 numbers = [-1, 1, 2, -5, 3, 4, -9, 5]
