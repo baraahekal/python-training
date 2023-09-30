@@ -9,5 +9,5 @@ def most_freq(lst):
 
 
 if __name__ == '__main__':
-    lst = [10, "most", 2.5, 7, "aly", 9, 4.5, 2, "ziad", -4, 1.1, [1, 5], 5, [0, 7, 8]]
+    lst = [10, "most", 2.3, 7, "aly", 9, 4.5, 2, "ziad", -4, 1.1, [1, 5], 5, [0, 7, 8]]
     print(most_freq(lst))
