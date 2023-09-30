@@ -7,11 +7,7 @@ def most_freq(lst):
 
     most = max(freq.values())
 
-    max_lst = []
-    for key in freq:
-        if freq[key] == most:
-            max_lst.append(key)
-
+    max_lst = [key for key in freq if freq[key] == most]
     print(max_lst)
 
 
